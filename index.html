@@ -50,7 +50,7 @@
               alt="tiwtter"></a></li>
         <li class="social"><a href="##"><img src="./assets/socialmedia/m.png" alt="M"></a></li>
       </ul>
-      <img src="./assets/images/Group.png" alt="">
+      <img src="./assets/images/Group.png" alt="Work">
     </div>
   </section>
   <section class="desk-first-page">
@@ -108,7 +108,6 @@
 
     <div class="card-2">
       <h2 class="prof-art">Profesional Art Printing Data</h2>
-      <!-- <h2 class="desk-prof-art-dash">Data Dashboard Healthcare</h2> -->
       <p class="p22">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
         industry's standard</p>
       <ul class="skils">
@@ -121,7 +120,6 @@
 
     <div class="card-2">
       <h2 class="prof-art">Profesional Art Printing Data</h2>
-      <!-- <h2 class="desk-prof-art-web">Website Protfolio </h2> -->
       <p class="p22">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
         industry's standard</p>
       <ul class="skils">
@@ -311,8 +309,11 @@
   </section>
   <form class="upper-form" action="https://formspree.io/f/xoqrrprd" method="post">
     <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch. </p>
-    <input type="text" maxlength="30" required placeholder="Full Name" class="full-name-m" name="usrname">
+    <label for="usrname" hidden>Your name</label>
+    <input type="text" id="usrname"  maxlength="30" required placeholder="Full Name" class="full-name-m" name="usrname">
+    <label for="usremail" hidden>Email</label>
     <input type="email" required placeholder="Email" class="email-m" name="usremail">
+    <label for="usremail" hidden>Your message</label>
     <textarea maxlength="500" id="msg" placeholder="Enter text here" class="messages-m" name="usrmessages"></textarea>
     <input type="submit" value="Get it touch" class="touch-m" name="usrsubmit">
   </form>
@@ -325,10 +326,13 @@
         <input type="text" maxlength="30" id="lnm" required placeholder="Last Name" class="last-name-desk"
           name="usrname">
       </div>
-      <input type="email" required placeholder="Email" class="email-desk" name="usremail">
+      <label for="usremail" hidden>Email</label>
+      <input type="email" id="usremail" required placeholder="Email" class="email-desk" name="usremail">
+      <label for="msg" hidden>your message</label>
       <textarea maxlength="500" id="msg" placeholder="Hello Solomon. I would like to get in touch with you..."
         class="messages" name="usrmessages"></textarea>
-      <input type="submit" value="Get it touch" class="touch-d" name="usrsubmit">
+        <label for="usrsubmit" hidden>Email</label>
+      <input type="submit" id="usrsubmit" value="Get it touch" class="touch-d" name="usrsubmit">
     </div>
   </form>
 

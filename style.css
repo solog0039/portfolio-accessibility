@@ -1033,7 +1033,7 @@ ul.Sk-list {
     width: 100px;
     height: 48px;
     text-decoration: none;
-    background: #f55800;
+    background: #c24700;
   }
 
   .desk-see-project-1 {
@@ -1086,6 +1086,7 @@ ul.Sk-list {
     background-image: url(./assets/deskimage/Placeholder4.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #1c1c1c;
     width: 31vw;
   }
 
@@ -1137,6 +1138,7 @@ ul.Sk-list {
     background-image: url(./assets/deskimage/Placeholder5.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #1c1c1c;
     width: 31vw;
   }
 
@@ -1180,6 +1182,7 @@ ul.Sk-list {
     background-image: url(./assets/deskimage/Placeholder4.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #1c1c1c;
     width: 31vw;
   }
 
@@ -1187,6 +1190,7 @@ ul.Sk-list {
     background-image: url(./assets/deskimage/Placeholder5.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #1c1c1c;
     width: 31vw;
   }
 
